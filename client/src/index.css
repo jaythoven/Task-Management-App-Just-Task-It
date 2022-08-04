@@ -1,4 +1,17 @@
-body {
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/*code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +23,317 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); */
+
+body {
+  background: linear-gradient(90deg, rgb(9, 211, 225) 0%, rgb(84, 121, 65) 50%, rgba(202,223,192,1) 100%);
+}
+
+#landing {
+  position: relative;
+  /* top: 30%; */
+  /* margin-bottom: 50%; */
+  /* left: 50%; */
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  justify-content: center;
+  text-align: center;
+  /* font-size: 50px; */
+}
+
+#landing h1 {
+  font-family: "BlinkMacSystemFont", sans-serif;
+  font-size: 65px;
+  color: #000000;
+}
+
+.landing-subtitle {
+  font-family: "BlinkMacSystemFont", sans-serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+.signups {
+  font-size: 0px;
+}
+
+.ant-btn {
+  background: transparent !important;
+  border: 1px solid black !important;
+}
+
+.ant-modal-header {
+  background-color: rgb(129, 213, 207) !important;
+  
+}
+
+.ant-modal-title {
+  color: white !important;
+}
+
+.ant-layout-header.header {
+  background-color: rgb(118, 204, 181) !important;
+  height: 70px;
+  color: white;
+  text-align: right;
+  font-size: 90px;
+  /* padding: 0 50px; */
+  /* line-height: 64px; */
+}
+
+/* .header-title {
+  font-size: 30px;
+  text-align: right;
+  margin-top: 10px;
+} */
+
+/* #movingheader {
+  color: white;
+  text-align: right;
+} */
+
+.footer {
+  /* background-color: rgb(25, 203, 212) !important; */
+  height: 60px;
+  font-size: 30px;
+  text-align: left;
+  font-family: "BlinkMacSystemFont", sans-serif;
+}
+
+.footer {
+  color: rgb(255, 252, 252);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ant-layout-header h1{
+  font-family: "BlinkMacSystemFont", sans-serif;
+  color: rgb(255, 252, 252);
+}
+
+.ant-layout {
+  min-height: 94vh !important;
+}
+
+#sidebar {
+  background-color: rgba(202,223,192,1) !important;
+}
+
+#sidebar h2 {
+  text-align: center;
+  font-size: 30px;;
+}
+
+#sidebar h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#sidebar .ant-menu-title-content {
+  color: black;
+  font-size: 36px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: rgba(202,223,192,1);
+  /* background: transparent; */
+}
+
+.ant-menu-item a::after {
+  background: transparent;
+}
+
+#sidebar .ant-layout-sider-children {
+  padding-top: 3rem;
+}
+
+#sidebar .ant-menu {
+  background: transparent !important;
+  color: rgb(0, 0, 0);
+  border-right: none !important;
+  text-align: center;
+  font-size: 25px;
+  font-family: "BlinkMacSystemFont", sans-serif;
+}
+
+#sidebar .ant-menu-item {
+  margin-top: 2rem;
+}
+
+#sidebar-btn {
+  height: 70px;
+  padding: 5.4px 50px;
+  font-size: 30px;
+  border-radius: 40px;
+}
+
+#logout-btn {
+  height: 70px;
+  padding: 5.4px 30px;
+  font-size: 30px;
+  border-radius: 40px;
+}
+
+
+#content {
+  padding-left: 5rem;
+  padding-top: 5rem;
+  background-color: rgb(172, 203, 197);
+}
+
+/* current task edits */
+
+#currenttasks .ant-collapse {
+  width: 80%;
+  /* margin-left: 5rem; */
+  font-family: "BlinkMacSystemFont", sans-serif;
+  border: none;
+  background: transparent;
+}
+
+#currenttasks .ant-collapse-content {
+  border: none;
+  background: transparent;
+  /* padding-left: 3rem; */
+  font-size: 20px;
+  /* background: rgb(255, 255, 255, 0); */
+}
+
+#currenttasks .ant-collapse .ant-collapse-header {
+  font-size: 40px !important;
+  /* background: transparent; */
+}
+
+#currenttasks .ant-btn-round {
+  font-size: 20px;
+  height: 45px;
+  padding: 2px 20px;
+  border-radius: 30px;
+}
+
+.ant-form-item-control-input-content {
+  /* padding: 10px; */
+  font-size: 14px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+  text-align: center;
+  color: transparent;
+}
+
+/* #taskcard {
+  padding-left: 5rem;
+} */
+
+#subtaskcard {
+  padding-top: 1rem;
+  width: 60%;
+}
+
+#subtaskcard .ant-space {
+  width: 130%;
+}
+
+#subtaskcard .ant-space .ant-space-item:hover {
+  text-decoration: underline;
+}
+
+.ant-btn-primary {
+  color: black !important;
+}
+
+/* #singlesubtask {
+  font-size: 50px;
+} */
+
+.ant-space-item {
+  font-size: 15px;  
+}
+
+.completedinstruction {
+  font-size: 3em;
+}
+
+/* Form */
+
+/* .form {
+  text-align: center;
+} */
+
+.form .MuiFormControl-root{
+  width: 100%;
+  max-width: 800px;
+  padding: 1em 0;
+}
+
+/* New Task Edits */
+
+#newtask {
+  padding-left: 5em;
+}
+
+#newtask .ant-form-item-required {
+  font-size: 40px !important;
+}
+
+#newtask .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 30px;
+  font-family: "BlinkMacSystemFont", sans-serif;
+  line-height: 1;
+  content: '*';
+}
+
+#newtask .ant-form label {
+  font-size: 40px;
+  font-family: "BlinkMacSystemFont", sans-serif;
+}
+
+#newtask .ant-btn-round.ant-btn-lg {
+  height: 60px;
+  padding: 10px 45px;
+  font-family: "BlinkMacSystemFont", sans-serif;
+  font-size: 25px;
+  border-radius: 70px;
+}
+
+/* completed tasks */
+
+#completed-btn {
+  height: 60px;
+  padding: 6.4px 20px;
+  font-size: 30px;
+  border-radius: 40px;
+}
+
+/* profile page */
+
+#delete-modal .css-xilmwd-MuiPaper-root-MuiAlert-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: none;
+  font-family: "BlinkMacSystemFont", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2;
+  letter-spacing: 0.20071em;
+  background-color: rgb(253, 237, 237);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px 16px;
+  color: rgb(119, 34, 33);
+}
+
+#delete-modal .css-1vooibu-MuiSvgIcon-root {
+  height: 3em;
+  width: 1.5em;
 }
